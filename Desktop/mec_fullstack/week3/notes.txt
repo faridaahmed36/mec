@@ -1,0 +1,9 @@
+- u can use name zy h1 {}
+- lw id use #
+- lw class use .
+- lw 3ndy kza haga w ayza yb2o nfs el style use 'class'
+- universal selector * applied  to all ex: font size *{}
+- grouping selectors zy msln p,h2,h1 {}
+- bst3ml span lw ayza gomla mo3yna f nos el para b font/color mokhtalef
+- el text: color, font-size, font family, text-decoration, font syle, font weight
+- tarteeb el border: width, color, style
