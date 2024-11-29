@@ -1,0 +1,239 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+.header {
+    background-image: url("https://preview.colorlib.com/theme/philosophy/images/hero-bg.jpg");
+    height: 120vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center; 
+    text-align: center; 
+    padding-top: 20px; 
+}
+
+/* Logo Styling */
+.logo {
+    margin-bottom: 10px; /* Space between logo and other elements */
+}
+
+.logo a img {
+    width: 200px;
+    height: 36px;
+}
+
+/* Navigation Styling */
+.nav {
+    margin-top: 10px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Featured Posts  */
+
+.featured-posts {
+    width: 90%;
+    margin: auto; 
+    height: 500px; 
+    display: flex;
+    position: relative;
+
+}
+
+/* First Post (Left) */
+.featured-posts .post {
+    
+    flex:60%; 
+    height: 100%;
+}
+
+.featured-posts .post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+/* Right Posts (Second and Third) */
+.featured-posts .post2 {
+    flex:20%;  
+    height: 50%; 
+}
+
+.featured-posts .post2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.featured-posts .post2-container {
+    display: flex;
+    flex-direction: column; 
+    width: 30%; 
+    
+}
+
+ .post-text{
+    position: absolute;
+    color: white;
+
+}
+
+.post-text h3{
+    width: 70%;
+    font-size: 36px;
+    font-family: "librebaskerville-bold", serif;
+
+}
+
+.post2 h3{
+    font-family: "librebaskerville-bold", serif;
+    font-size: 16px;
+
+}
+
+.containers{
+    width: 90%;
+    background-color: #F2F2F2;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.single-container{
+    width: 25%;
+    flex-direction: column;
+    margin: 5px;
+    display: flex;
+    background-color: white;
+    
+}
+
+
+.single-container img{
+    width: 100%;
+    height: 50%;
+}
+
+.single-container-text{
+    padding: 3rem 2.8rem 3.6rem;
+}
+
+.single-container h3{
+    font-family: "librebaskerville-bold", serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.single-container p{
+    font-family: metropolis-regular, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #656565;;
+}
+
+.containers .single-container:nth-child(2) {
+    height: 300px; 
+    flex-grow: 0; 
+}
+
+.last-part{
+
+    height: 100vh;
+    width: 100%;
+    display:flex;
+	flex-wrap:wrap;
+}
+.popular{
+    width: 65%;
+    background-color: coral;
+}
+
+.pop-text{
+    display: flex;
+    align-items: left;
+    width: 50%;
+    background-color: blue;
+    float: right;
+    text-align: left;
+
+}
+.popular h1, .about h1{
+    font-family: "librebaskerville-bold", serif ;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+.pop-text p{
+    flex-direction: column;
+}
+.clear{
+    clear: both;
+}
+
+.pop-img img{
+    width: 55px;
+    height: 55px;
+    align-items: left;
+    
+}
+
+.about{
+    width: 35%;
+    background-color: aqua;
+    margin: 0px 0px 15px;
+
+}
+
+.about p{
+    font-family: metropolis-regular, sans-serif ;
+    color: #656565;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer{
+    background-color: #19191B;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding:102px 0px 60px ;
+
+ 
+}
+
+.footer p{
+    font-family: metropolis-regular, sans-serif;
+    font-size: 15px;
+    color: RGBA(255, 255, 255, 0.4);
+}
+
+.footer h3{
+    color: RGB(255, 255, 255);
+    border-bottom: 1px solid grey;
+    letter-spacing: 2.5px;
+}
+
