@@ -1,0 +1,57 @@
+/* Global padding adjustment */
+.container, .row, .col-md-4, .col-lg-3, .mb-4, .mb-5, .p-10 {
+  padding: 5px !important; /* Adjust the value as needed */
+}
+
+.product-item, .post-entry, .choose-item, .testimonial-block {
+  margin-bottom: 3px; /* Adds spacing between items */
+  padding: 5px; /* Adds internal padding for items */
+}
+
+
+
+
+
+.circular-image {
+    border-radius: 50%;
+    width: 100px;  
+    height: 100px; 
+    
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #444444;
+    /*Darkgreycolor*/background-size: 100%;
+    /*Adjustthesizeoftheicon*/border-radius: 55%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: #3B5D50; 
+  }
+
+  .carousel {
+    height: 70vh;
+  }
+
+  .footer-section a {
+    text-decoration: none !important; 
+    color: black;
+  }
+
+  /* ================================================ */
+
+
+
+
+
+
+
+
+
